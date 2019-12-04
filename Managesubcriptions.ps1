@@ -1,4 +1,7 @@
-﻿#Script Nico Baburek
+﻿#Script Nico Baburek 2019##
+
+# uncomment the parts you need.
+
 
 
 ## *Get all subscriptions in all tenants*
