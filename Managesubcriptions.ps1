@@ -10,9 +10,12 @@
 
 
 ## *Set active subcription*
+az account list --output table
+az account set --subscription "subName"
 
-#$context = Get-AzSubscription -SubscriptionId ""
-#Set-AzContext $context
+## Under construction##
+#$context = Get-AzSubscription -SubscriptionId "
+#Set-AzContext $context -
 
 
 
