@@ -5,4 +5,5 @@
 
 
 # Get value from Azure key vault in plain text#
-(Get-AzureKeyVaultSecret -VaultName '<>' -name <> ).SecretValueText
+
+(Get-AzureKeyVaultSecret -VaultName {Vaultname} -name {Secretyouwhant} ).SecretValueText

@@ -6,17 +6,26 @@
 
 ## *Get all subscriptions in all tenants*
 
-#  Get-AzSubscription
+##Connect to azure
+# Connect-AzAccount
+
+
+# Show current Azure Subcription
+# Get-AzSubscription
 
 
 ## *Set active subcription*
-az account list --output table
-az account set --subscription "subName"
+#az account list --output table
+#az account set --subscription "subName"
 
-## Under construction##
-#$context = Get-AzSubscription -SubscriptionId "
-#Set-AzContext $context -
-
-
+## Set Azure default subcription##
+#
+# Set-AzContext -Subscriptionid ""
 
 
+##
+#Connect-AzAccount
+
+Set-AzContext -Subscriptionid ""
+
+create-azn
